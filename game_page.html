@@ -8,7 +8,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="game.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<h4 id="player1_name"></h4> <span id="player1_score"></span>
@@ -17,7 +17,7 @@
 
 <div class="container">
 	<center>
-		<h2 style="color: white;">Guess The Word!</h2>
+		<h2 style="color: rgb(0, 225, 255);">The Math quiz</h2>
 		<h3 id="player_question"></h3>
 		<h3 id="player_answer"></h3>
 		<div id="output" class="col-lg-6"></div>
@@ -25,15 +25,20 @@
 		<br>
 		<br>
 
-		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+		<label> <b style="color: red"></b></label>
 
 		<br>
-<input type="text" id="word" class="form-control" placeholder="type word here">
+		<input type="text" id="number1" class="form-control" placeholder="Enter Number ">
+		<br>
+		<br>
+<input type="text" id="number2" class="form-control" placeholder="Enter Number">
 <br>
-<button onclick="send()" class="btn btn-warning" style="width: 30%;">Send</button>
+
+<button onclick="send()" class="btn btn-danger" style="width: 30%;">Send</button>
 	</center>
 </div>
 
-<script src="game_page.js"></script>
+<script src="Game_page.js"></script>
+
 </body>
 </html>
